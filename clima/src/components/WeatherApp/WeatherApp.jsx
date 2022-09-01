@@ -18,7 +18,7 @@ const WeatherApp = () => {
   
 
 
-  const loadInfo= async (city="Argentina") =>{
+  const loadInfo= async (city="City bell") =>{
     const endpoint  = `${process.env.REACT_APP_URL}&key=${process.env.REACT_APP_KEY}&q=${city}`
     try {
         const data = await fetch(endpoint).then(res=>res.json()).then(response=>response)

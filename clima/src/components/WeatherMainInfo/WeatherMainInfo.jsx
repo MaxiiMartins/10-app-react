@@ -11,7 +11,7 @@ const WeatherMainInfo = ({ weather }) => {
         <div>
           <img
             src={`http:${weather?.current.condition.icon}`}
-            width="128"
+            width="120"
             alt={`${weather?.current.condition.text}`}
           />
         </div>
@@ -24,10 +24,9 @@ const WeatherMainInfo = ({ weather }) => {
         title="mapa"
         src={`https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d210146.43838749157!2d${weather?.location.lon}88!3d${weather?.location.lat}255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1661988135517!5m2!1ses!2sar`}
         width="100%"
-        height="350"
+        height="300"
         style={{ border: 0 }}
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
       
     </div>
