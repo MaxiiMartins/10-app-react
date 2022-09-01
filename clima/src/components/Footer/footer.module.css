@@ -1,0 +1,29 @@
+.copyright {
+    padding: 0.1em 1em;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border-top: 2px solid rgba(255, 255, 255, 0.3);
+  }
+  .footerMenu{
+    float: left;
+      margin-top: 5px;
+  }
+  
+  .footerMenu a{
+    color: #cfd2d6;
+    padding: 4px;
+  
+    text-decoration: none;
+  }
+  .footerMenu a:hover{
+    color: #27bcda;
+  }
+  .copyright p {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.526);
+  }
